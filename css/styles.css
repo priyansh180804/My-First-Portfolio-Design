@@ -85,7 +85,7 @@ nav {
   text-align: center;
 }
 .social-icons .fa-brands {
-  margin: 35px;
+  margin: 35px 25px;
   font-size: 1.5rem;
   color: #3b3a3a;
   -webkit-transition: all 0.3s ease-in-out;
@@ -126,17 +126,21 @@ nav {
 }
 .about-description h2 {
   width: 200px;
-  font-size: 4rem;
+  font-size: 2rem;
   color: #fff;
   letter-spacing: 3px;
 }
-.about-description #name {
+.about-description h1 {
   max-width: 600px;
-  font-size: 5rem;
+  font-size: 3rem;
   color: var(--logo-color);
 }
+.about-description .text-logo {
+  width: 30px;
+  height: auto;
+}
 .about-description #job {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #fff;
   text-transform: uppercase;
 }
@@ -211,25 +215,22 @@ nav {
   color: var(--body-bg-color);
 }
 /* ----------ACHIEVEMENTS----------- */
-.achievement {
-  display: flex;
-}
 .ach {
-  width: 200px;
+  width: 180px;
   display: flex;
   align-items: center;
   margin-top: 30px;
 }
 .achievement h1 {
-  font-size: 4.5rem;
+  font-size: 4rem;
   color: #3b3939;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-  margin-right: 10px;
+  margin-right: 0px;
 }
 .achievement span {
   color: var(--logo-color);
-  font-size: 1.05rem;
+  font-size: 1rem;
 }
 .icons {
   position: absolute;
@@ -732,6 +733,9 @@ footer span {
   /* -----------ACHIEVEMENT--------------- */
   .achievement h1 {
     font-size: 4.5rem;
+  }
+  .achievement {
+    display: flex;
   }
   .ach {
     width: 200px;
